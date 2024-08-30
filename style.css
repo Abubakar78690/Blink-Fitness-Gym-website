@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "importedfont";
+    src: url(Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "imported2";
+    src: url(RobotoSlab-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "imported3";
+    src: url(BebasNeue-Regular.ttf);
+}
+
+
+*{              /* applies to all elements on a webpage */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    zoom: 48.655%;
+}
+
+.video{
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;   
+}
+
+.header{
+    position: absolute;
+}
+
+.title{
+    position: absolute;
+    margin-top: 15px;
+    padding-right: 35px;
+    font-size: 100px;
+    font-family: 'imported2';
+    color: white;
+    display: inline;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+.blink{
+    color: rgb(216, 143, 7);
+}
+
+.searchbar{
+    display: inline-flex;
+    margin-top: 45px;
+    margin-left: 730px;
+    padding: 25px;
+    width: 900px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.653);
+    border: none;
+    border-radius: 56px;
+    opacity: 30%;
+    outline: none;
+    transition: all 0.17s ease;
+    font-size: 25px;
+}
+.searchbar::placeholder{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.searchbar:hover{
+    transition: all 0.3s ease;
+    opacity: 100%;
+}
+
+.navbar{
+    font-family: 'imported2';
+    display: inline;
+    float: right;
+    margin-top: 35px;
+    margin-left: 20px;
+    background-color: rgb(0, 0, 0, 0);
+}
+.navbar ul{
+    list-style-type: none;          /* to remove the bullet points from elements contained within the ul tag */
+}
+
+.navbar li{
+    font-size: 200%;
+    margin: 5px;
+    display: inline-flex;
+} 
+
+.navbar button{
+    font-family: "imported2";
+    width: 132px;
+    height: 70px;
+    background-color: orange;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+}
+.navbar a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;           
+}
+
+.navbar a:hover{
+    color: orange;
+    border-bottom: solid 1px rgba(252, 122, 0, 0.5);
+    background-color: rgb(0,0,0,0);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.navbar button:hover{
+    background-color: white;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    color: orange;
+    box-shadow: 0 0 30px white;
+}
+
+.mainheading{
+    position: absolute;
+    font-family: 'imported3';
+    margin-left: 300px;
+    margin-top: 450px;
+    font-size: 150px;
+    color: white;
+}
+
+.slogan{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    font-size: 70px;
+    margin-left: 300px;
+    margin-top: 350px;
+    color: white;
+}
+.Done{
+    font-size: 100px;
+    color: red;
+}
+
+.button2{
+    position: absolute;
+    font-family: "imported3";
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: 880px;
+}
+.button2:hover{
+    background-color: white;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    color: red;
+}
+.blckbck{
+    display: flex;
+    justify-content: space-evenly;
+}
+.blckimg{
+    position: absolute;
+    width: 100%;
+    margin-top: 1200px;
+    height: 800px;
+    box-shadow: 0 -50px 300px gray;
+}
+.blckelements{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 1400px;
+    font-family: "imported3";
+}
+.blckelements h1{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 160px;
+    padding-left: 160px;
+    font-size: 50px;
+    border-left: 1px solid white;
+    /* border-right: 1px solid white; */
+}
+.blckelements p{
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 80px;
+    padding-left: 120px;
+    padding-right: 100px;
+    border-left: 1px solid white;
+}
+.p3{
+    margin-left: 90px;
+}
+
+.logos{
+    position: absolute;
+    margin-top: 2000px;
+    width: 100%;
+    padding-left: 1145px;
+    padding-right: 1000px;
+    background-color: rgb(19, 20, 20);
+
+}
+.logos a{
+    transition: all 0.5s ease;
+    padding: 16px;
+    color: rgb(67, 66, 66);
+    font-size: 90px;
+    display: inline-block;
+}
+.logos #whatsapp:hover{
+    color: rgb(9, 207, 9);
+}
+.logos #facebook:hover{
+    color: blue;
+}
+.logos #instagram:hover{
+    color: rgb(194, 17, 55);
+}
+.awards{
+    color: red;
+}
